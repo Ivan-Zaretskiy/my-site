@@ -80,4 +80,12 @@ $(document).ready(function(){
         }
     }
     $('.year').html((new Date()).getFullYear());
+    $('#sendMessage').on('click',function (e) {
+        e.preventDefault();
+        Swal.fire(
+            'Отлично!',
+            'Ваше сообщение было отправлено!',
+            'success'
+        )
+    })
 });
