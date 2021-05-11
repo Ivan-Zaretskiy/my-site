@@ -28,14 +28,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Комфорт", "Скорость", "Качесто", "Безопасность", "Надежность"],
+        strings: ["Комфорт", "Скорость", "Качество", "Безопасность", "Надежность"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Комфорт", "Скорость", "Качесто", "Безопасность", "Надежность"],
+        strings: ["Комфорт", "Скорость", "Качество", "Безопасность", "Надежность"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
